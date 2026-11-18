@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>1380</width><height>920</height></rect></property>
+  <property name="windowTitle"><string>Наземная станция — Практическое занятие 3 · Вариант 2</string></property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="rootLayout">
+    <property name="spacing"><number>0</number></property>
+    <property name="leftMargin"><number>0</number></property><property name="topMargin"><number>0</number></property>
+    <property name="rightMargin"><number>0</number></property><property name="bottomMargin"><number>0</number></property>
+    <item><widget class="QFrame" name="sidebar"><property name="minimumSize"><size><width>190</width><height>0</height></size></property><property name="maximumSize"><size><width>190</width><height>16777215</height></size></property><layout class="QVBoxLayout" name="sidebarLayout"/></widget></item>
+    <item><widget class="QWidget" name="body"><layout class="QVBoxLayout" name="bodyLayout"><property name="spacing"><number>0</number></property><property name="leftMargin"><number>0</number></property><property name="topMargin"><number>0</number></property><property name="rightMargin"><number>0</number></property><property name="bottomMargin"><number>0</number></property>
+      <item><widget class="QFrame" name="header"><property name="minimumSize"><size><width>0</width><height>76</height></size></property><layout class="QHBoxLayout" name="headerLayout"/></widget></item>
+      <item><widget class="QScrollArea" name="dashboardScroll"><property name="widgetResizable"><bool>true</bool></property><property name="frameShape"><enum>QFrame::NoFrame</enum></property><widget class="QWidget" name="dashboard"><layout class="QVBoxLayout" name="dashboardLayout"/></widget></widget></item>
+    </layout></widget></item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

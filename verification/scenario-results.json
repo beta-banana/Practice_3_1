@@ -1,0 +1,16 @@
+{
+    "fallback_navigation": "Навигация: ИНС",
+    "fallback_timer_active": true,
+    "fault_reason": "Авария: Отказ сенсора: Гироскоп",
+    "fault_timer_active": false,
+    "healthy_altitude": 200.37440624304122,
+    "healthy_error": -0.3744062430412214,
+    "healthy_time": 19,
+    "reset_status": "Полёт выполняется",
+    "reset_timer_active": true,
+    "target_300_altitude": 300.491752284272,
+    "target_300_error": -0.49175228427202455,
+    "target_300_time": 54.3000000000005,
+    "target_error_jump": 100,
+    "ticks_in_1050ms": 10
+}

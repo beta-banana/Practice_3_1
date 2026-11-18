@@ -1,0 +1,10 @@
+Internal ctest changing into directory: /tmp/groundstation-build.354lCa/build
+Test project /tmp/groundstation-build.354lCa/build
+    Start 1: model
+1/2 Test #1: model ............................   Passed    0.03 sec
+    Start 2: gui
+2/2 Test #2: gui ..............................   Passed   10.88 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =  10.91 sec

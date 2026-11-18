@@ -1,0 +1,12 @@
+********* Start testing of GuiTests *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (arm64-little_endian-lp64 shared (dynamic) release build; by Apple LLVM 16.0.0 (clang-1600.0.26.3)), macos 15.8.1
+PASS   : GuiTests::initTestCase()
+QWARN  : GuiTests::integratedRequiredScenarios() qt.qpa.fonts: Populating font family aliases took 51 ms. Replace uses of missing font family "Sans Serif" with one that exists to avoid this cost.
+QWARN  : GuiTests::integratedRequiredScenarios() This plugin does not support propagateSizeHints()
+QWARN  : GuiTests::integratedRequiredScenarios() This plugin does not support propagateSizeHints()
+PASS   : GuiTests::integratedRequiredScenarios()
+QWARN  : GuiTests::secondLevelFallbackAndTotalFailure() This plugin does not support propagateSizeHints()
+PASS   : GuiTests::secondLevelFallbackAndTotalFailure()
+PASS   : GuiTests::cleanupTestCase()
+Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 7921ms
+********* Finished testing of GuiTests *********

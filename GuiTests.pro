@@ -1,0 +1,10 @@
+QT += core gui widgets charts testlib
+CONFIG += console c++17 testcase
+QMAKE_UIC_FLAGS += --no-autoconnection
+CONFIG -= app_bundle
+TARGET = GuiTests
+INCLUDEPATH += src
+SOURCES += tests/gui_tests.cpp src/mainwindow.cpp src/trajectoryview.cpp src/uav.cpp src/sensor.cpp src/navigation.cpp src/controller.cpp src/autopilot.cpp
+HEADERS += src/mainwindow.h src/trajectoryview.h src/uav.h src/sensor.h src/navigation.h src/controller.h src/autopilot.h
+FORMS += src/mainwindow.ui
+RESOURCES += resources.qrc

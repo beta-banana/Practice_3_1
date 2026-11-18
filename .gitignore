@@ -1,0 +1,10 @@
+build*/
+CMakeFiles/
+CMakeCache.txt
+.DS_Store
+.qtcreator/
+*.user
+bin/
+*.zip
+!downloads/
+!downloads/*.zip
